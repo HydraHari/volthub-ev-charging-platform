@@ -56,7 +56,7 @@ VoltHub/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/volthub-ev-charging-platform.git
+git clone https://github.com/HydraHari/volthub-ev-charging-platform.git
 ```
 
 ### 2. Navigate to the project directory
