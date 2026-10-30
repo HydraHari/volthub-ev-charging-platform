@@ -1,0 +1,2 @@
+import { Search, Bell, Command } from 'lucide-react';
+export default function Navbar({title}) { return <header className="topbar"><div className="crumb">Workspace <span>/</span> <b>{title}</b></div><div className="top-actions"><div className="search-shortcut"><Search size={15}/> Search <kbd><Command size={11}/> K</kbd></div><button className="icon-btn" aria-label="Notifications"><Bell size={18}/><i/></button><div className="avatar small">HD</div></div></header> }

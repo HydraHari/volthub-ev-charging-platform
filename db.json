@@ -1,0 +1,112 @@
+{
+  "stations": [
+    {
+      "id": "1",
+      "name": "Chennai Central",
+      "location": "Park Town, Chennai",
+      "power": 60,
+      "status": "Available",
+      "connector": "CCS2",
+      "price": 18
+    },
+    {
+      "id": "2",
+      "name": "OMR Charging Hub",
+      "location": "Sholinganallur, Chennai",
+      "power": 120,
+      "status": "Occupied",
+      "connector": "CCS2",
+      "price": 20
+    },
+    {
+      "id": "3",
+      "name": "ECR Green Station",
+      "location": "Thiruvanmiyur, Chennai",
+      "power": 50,
+      "status": "Available",
+      "connector": "Type 2",
+      "price": 16
+    },
+    {
+      "id": "4",
+      "name": "Velachery EV Point",
+      "location": "Velachery, Chennai",
+      "power": 80,
+      "status": "Available",
+      "connector": "CCS2",
+      "price": 18
+    },
+    {
+      "id": "5",
+      "name": "Anna Nagar EV Hub",
+      "location": "Anna Nagar, Chennai",
+      "power": 100,
+      "status": "Maintenance",
+      "connector": "CCS2",
+      "price": 19
+    }
+  ],
+  "sessions": [
+    {
+      "id": "1",
+      "station": "OMR Charging Hub",
+      "vehicle": "TN 09 AB 1234",
+      "energy": 32.5,
+      "amount": 650,
+      "status": "Charging",
+      "started": "10:42 AM"
+    },
+    {
+      "id": "2",
+      "station": "Chennai Central",
+      "vehicle": "TN 10 CD 5678",
+      "energy": 24.2,
+      "amount": 436,
+      "status": "Completed",
+      "started": "09:15 AM"
+    },
+    {
+      "id": "3",
+      "station": "ECR Green Station",
+      "vehicle": "TN 07 EF 9012",
+      "energy": 18.7,
+      "amount": 299,
+      "status": "Completed",
+      "started": "08:30 AM"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "customer": "Arun Kumar",
+      "station": "Chennai Central",
+      "date": "2026-10-31",
+      "time": "10:30",
+      "status": "Confirmed"
+    },
+    {
+      "id": "2",
+      "customer": "Priya S",
+      "station": "OMR Charging Hub",
+      "date": "2026-10-31",
+      "time": "12:00",
+      "status": "Pending"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "1",
+      "title": "Station maintenance scheduled",
+      "detail": "Anna Nagar EV Hub is under maintenance",
+      "level": "Warning",
+      "time": "10 min ago"
+    },
+    {
+      "id": "2",
+      "title": "Network operating normally",
+      "detail": "All other stations are reporting healthy status",
+      "level": "Info",
+      "time": "25 min ago"
+    }
+  ]
+}
